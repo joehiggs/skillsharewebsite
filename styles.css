@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent;
+    font-family: 'Rammetto One', cursive;
+  }
+
+body {
+    background-color: pink;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.title {
+    font-size: 72px;
+    color: red;
+}
+
+.subtitle {
+    font-size: 48px;
+    color: yellow;
+}
